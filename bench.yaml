@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/Cambridge-CIT-ASIC-Tapeouts/CIT_Programmable-NLFSR
+  original_url: https://github.com/CambridgeinstitutetechnologyBLR-Aishu/CIT_Programmable-NLFSR
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_cambridge_nlfsr
+  project: Programmable Chaotic NLFSR
+  size: 1x1
+  kind: digital (Verilog)
+  commit: 805d0a2633a5c275aa8e73564b5061c1115565e7
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_cambridge_nlfsr
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_cambridge_nlfsr
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:21:50Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_cambridge_nlfsr
+- upstream/main
